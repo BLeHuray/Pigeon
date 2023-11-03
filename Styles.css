@@ -10,6 +10,11 @@ nav {
 
 /* comparison page */
 
+
+#cbox1{
+    border-radius: 10px;
+}
+
 .box-style1{
     border: 3px solid rgb(255, 255, 255);
 }
