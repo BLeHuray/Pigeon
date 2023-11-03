@@ -14,10 +14,12 @@ nav {
 
 #cbox1{
     border-radius: 20px;
-    background: rgb(255,255,255);
-    background: linear-gradient(107deg, rgba(255, 255, 255, 0.74) 0%, rgba(255,255,255,0.14049369747899154) 100%);
+    /* background: rgb(255,255,255);
+    background: linear-gradient(107deg, rgba(255, 255, 255, 0.74) 0%, rgba(255,255,255,0.14049369747899154) 100%); */
 }
 
 .box-style1{
     border: 3px solid rgb(255, 255, 255);
+    background: rgb(255,255,255);
+    background: linear-gradient(107deg, rgba(255, 255, 255, 0.74) 0%, rgba(255,255,255,0.14049369747899154) 100%);
 }
