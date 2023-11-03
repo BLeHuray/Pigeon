@@ -2,3 +2,9 @@
 body {
     background-color: lightblue;
 }
+
+/* comparison page */
+
+.box-style1{
+    border: 3px solid rgb(255, 255, 255);
+}
