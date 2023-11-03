@@ -3,7 +3,8 @@ body {
     background-color: lightblue;
 }
 
-nav {
-    background-color: white;
-    color: black;
+/* comparison page */
+
+.box-style1{
+    border: 3px solid rgb(255, 255, 255);
 }
