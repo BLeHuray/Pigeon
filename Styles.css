@@ -13,6 +13,9 @@ nav {
 
 #cbox1{
     border-radius: 10px;
+    background: rgb(0,140,204);
+    background: linear-gradient(120deg, rgba(0,140,204,1) 0%, rgba(0,42,91,1) 100%);
+
 }
 
 .box-style1{
