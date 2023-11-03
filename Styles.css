@@ -1,4 +1,25 @@
 
 body {
-    background-color: lightblue;
+    background: rgb(0,140,204);
+    background: linear-gradient(176deg, rgba(0,140,204,1) 0%, rgba(0,42,91,1) 100%);
+}
+
+nav {
+    background-color: white;
+    color: black;
+}
+
+/* comparison page */
+
+
+#cbox1{
+    border-radius: 20px;
+    /* background: rgb(255,255,255);
+    background: linear-gradient(107deg, rgba(255, 255, 255, 0.74) 0%, rgba(255,255,255,0.14049369747899154) 100%); */
+}
+
+.box-style1{
+    border: 3px solid rgb(255, 255, 255);
+    background: rgb(255,255,255);
+    background: linear-gradient(107deg, rgba(255, 255, 255, 0.74) 0%, rgba(255,255,255,0.14049369747899154) 100%);
 }
