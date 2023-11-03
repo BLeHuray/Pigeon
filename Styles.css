@@ -2,3 +2,8 @@
 body {
     background-color: lightblue;
 }
+
+nav {
+    background-color: white;
+    color: black;
+}
