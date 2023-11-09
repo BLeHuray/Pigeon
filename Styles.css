@@ -5,10 +5,39 @@ body {
     background: linear-gradient(176deg, rgba(0,140,204,1) 0%, rgba(0,42,91,1) 100%);
 }
 
+/*------------------- nav bar */
 nav {
-    background-color: white;
+    /* background-color: white; */
     color: black;
     height: 50px;
+    padding-bottom: 30px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+    display: inline;
+    padding: 30px;
+}
+
+li a {
+    font-weight: bolder;
+    display: block;
+    color: white;
+    text-align: center;
+    /* padding: 14px 16px; */
+    text-decoration: none;
+}
+
+.active{
+    display: inline;
+    border-bottom: 2px solid #ffffff;
 }
 
 
