@@ -181,7 +181,7 @@ input[type=submit]:hover {
 
 footer{
     background-color: white;
-    width: 100%;
+    width: auto;
 }
 
 /* ---------------------------------comparison page */
