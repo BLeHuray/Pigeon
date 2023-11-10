@@ -206,6 +206,14 @@ hr{
 
 }
 
+.otherBox{
+    margin: 2px;
+    padding: 2px;
+    border-color: white;
+    border-style: solid;
+
+}
+
 #rightBox{
     margin: 2px;
     padding: 2px;
