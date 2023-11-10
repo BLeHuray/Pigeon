@@ -172,6 +172,8 @@ input[type=submit]:hover {
 
 }
 
+/**
+
 #centreForms{
     text-align: center;
     justify-content: center;
@@ -179,6 +181,8 @@ input[type=submit]:hover {
     left: 50%;
 
 }
+
+**/
 
 
 /* footer style */
