@@ -147,7 +147,7 @@ input[type = text], select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    text-align: center;
+    left: 50%;
 
 }
 
@@ -161,7 +161,7 @@ font-family: 'Montserrat';
     background-color: white;
     border-style: hidden;
     margin-bottom: 20px;
-    text-align: center;
+    left: 50%;
 
 }
 
