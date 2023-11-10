@@ -217,6 +217,7 @@ hr{
     padding: 2px;
     width: 15%;
     text-align: center;
+    font-family: 'Impact';
     border-color: white;
     border-style: solid;
     border-radius: 10px;
@@ -224,6 +225,7 @@ hr{
 
     border: 3px solid rgb(255, 255, 255);
     background: linear-gradient(107deg, rgba(255, 255, 255, 0.404) 0%, rgba(255, 255, 255, 0.096) 100%);
+    color: white;
 
 }
 
@@ -232,12 +234,14 @@ hr{
     padding: 2px;
     width: 15%;
     text-align: center;
+    font-family: 'Impact';
     border-color: white;
     border-radius: 10px;
     border-style: solid;
 
     border: 3px solid rgb(255, 255, 255);
     background: linear-gradient(107deg, rgba(255, 255, 255, 0.404) 0%, rgba(255, 255, 255, 0.096) 100%);
+    color: white;
 
 }
 
@@ -246,6 +250,7 @@ hr{
     padding: 2px;
     width: 15%;
     text-align: center;
+    font-family: 'Impact';
     border-color: white;
     border-style: solid;
     border-radius: 10px;
@@ -253,6 +258,7 @@ hr{
 
     border: 3px solid rgb(255, 255, 255);
     background: linear-gradient(107deg, rgba(255, 255, 255, 0.404) 0%, rgba(255, 255, 255, 0.096) 100%);
+    color: white;
 
 }
 
