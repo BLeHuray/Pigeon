@@ -140,7 +140,7 @@ h1{
 
 /*---------------------------------------form styling */
 input[type = text], select {
-    width: 50%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -155,7 +155,7 @@ font-family: 'Montserrat';
     font-weight: bold;
     color: #002A5B;
     height: 45px;
-    width: 50%;
+    width: 100%;
     border-radius: 50px;
     background-color: white;
     border-style: hidden;
@@ -172,14 +172,9 @@ input[type=submit]:hover {
 
 }
 
-
-
 #centreForms{
     text-align: center;
-    /*justify-content: center;
-    align-items: center;
-    left: 50%;*/
-
+    
 }
 
 /* footer style */
