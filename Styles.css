@@ -173,17 +173,20 @@ input[type=submit]:hover {
 }
 
 #name{
-    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
 
 }
 
 #age{
-    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
     
 }
 
 #children{
-    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
     
 }
 
