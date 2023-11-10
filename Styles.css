@@ -96,6 +96,7 @@ h1{
     border-radius: 50px;
     background-color: white;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 
@@ -119,6 +120,7 @@ h1{
     background-color: #002A5B;
     border-style: hidden;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 
