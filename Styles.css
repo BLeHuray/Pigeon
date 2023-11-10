@@ -147,7 +147,7 @@ input[type = text], select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    align-items: center;
+    text-align: center;
 
 }
 
@@ -161,8 +161,8 @@ font-family: 'Montserrat';
     background-color: white;
     border-style: hidden;
     margin-bottom: 20px;
-    align-items: center;
-    
+    text-align: center;
+
 }
 
 input[type=submit]:hover {
