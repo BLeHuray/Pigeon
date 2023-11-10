@@ -1,8 +1,8 @@
-<scirpt>
+<script>
 
 function submitButton() {
     location.href = "Comparison.html"
 }
 
 
-</scirpt>
+</script>
