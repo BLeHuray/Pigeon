@@ -147,8 +147,7 @@ input[type = text], select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    left: 50%;
-
+    
 }
 
 input[type = submit]{
@@ -161,7 +160,6 @@ font-family: 'Montserrat';
     background-color: white;
     border-style: hidden;
     margin-bottom: 20px;
-    left: 50%;
 
 }
 
@@ -171,7 +169,25 @@ input[type=submit]:hover {
     background-color: #002A5B;
     border-style: hidden;
     margin-bottom: 20px;
-  }
+
+}
+
+#name{
+    left: 50%;
+
+}
+
+#age{
+    left: 50%;
+    
+}
+
+#children{
+    left: 50%;
+    
+}
+
+/* footer style */
 
 footer{
     background-color: white;
