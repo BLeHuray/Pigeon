@@ -84,7 +84,7 @@ h1{
     height: 70px;
     width: 300px;
     border-radius: 50px;
-    background: linear-gradient(107deg, rgba(255, 255, 255, 0.404) 0%, rgba(255, 255, 255, 0.096) 100%);
+    background: linear-gradient(107deg, rgba(255, 255, 255, 0.336) 0%, rgba(255, 255, 255, 0.096) 100%);
     border-style:solid;
     border-color: #ffffff;
     border-width: 2px;
@@ -176,7 +176,7 @@ input[type=submit]:hover {
 
 
 #cbox1{
-    border-radius: 20px;
+    border-radius: 40px;
     /* background: rgb(255,255,255);
     background: linear-gradient(107deg, rgba(255, 255, 255, 0.74) 0%, rgba(255,255,255,0.14049369747899154) 100%); */
     max-width: 700px;
@@ -203,6 +203,7 @@ hr{
 @media screen and (max-width: 600px)
 {
     #cbox1{
+        border-radius: 20px;
         width: 300px;
     }
 
