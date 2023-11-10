@@ -173,19 +173,16 @@ input[type=submit]:hover {
 }
 
 #name{
-    left: 50%;
     transform: translate(-50%, -50%);
 
 }
 
 #age{
-    left: 50%;
     transform: translate(-50%, -50%);
     
 }
 
 #children{
-    left: 50%;
     transform: translate(-50%, -50%);
     
 }
