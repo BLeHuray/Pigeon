@@ -5,12 +5,12 @@ body {
     background: linear-gradient(176deg, rgba(0,140,204,1) 0%, rgba(0,42,91,1) 100%);
 }
 
-.bg-photo{
-    /* display: grid; */
-    /* place-content: center; */
-    /* position: relative; */
-    /* isolation: isolate; */
-}
+/* .bg-photo{
+    display: grid;
+    place-content: center;
+    position: relative;
+    isolation: isolate;
+} */
 
 .bg-photo::after{
     content: "";
@@ -129,6 +129,13 @@ h1{
     align-items: center;
 }
 
+.center2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 /* form styling */
 input[type = text], select {
     width: 100%;
@@ -202,7 +209,7 @@ hr{
     }
     
     .bg-photo::after{
-        background-size: 900px;
+        background-size: 1270px;
     }
 
 
