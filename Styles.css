@@ -195,6 +195,17 @@ hr{
     border-radius: 10px;
 }
 
+/* --------------------------------- financial dictionary page */
+
+.leftBox{
+    margin: 2px;
+    padding: 2px;
+    border-color: white;
+    border-style: solid;
+    float: left;
+
+}
+
 
 
 /* --------------------responsive design */
