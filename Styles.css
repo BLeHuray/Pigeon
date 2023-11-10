@@ -175,6 +175,10 @@ input[type=submit]:hover {
 /* ---------------------------------comparison page */
 
 
+#page-box1{
+    width: 100%;
+}
+
 #cbox1{
     border-radius: 40px;
     /* background: rgb(255,255,255);
@@ -236,6 +240,15 @@ hr{
 
 
 /* --------------------responsive design */
+
+@media screen and (max-width: 375px)
+{
+    #page-box1{
+        padding-top: 200px;
+    }
+}
+
+
 
 @media screen and (max-width: 600px)
 {
