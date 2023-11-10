@@ -172,7 +172,7 @@ input[type=submit]:hover {
 
 }
 
-#name, #children, #children{
+#name, #age, #children{
     text-align: center;
     justify-content: center;
     align-items: center;
