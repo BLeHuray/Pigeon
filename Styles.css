@@ -172,23 +172,13 @@ input[type=submit]:hover {
 
 }
 
-#name{
+#centreForms{
+    text-align: center;
     justify-content: center;
     align-items: center;
 
 }
 
-#age{
-    justify-content: center;
-    align-items: center;
-    
-}
-
-#children{
-    justify-content: center;
-    align-items: center;
-    
-}
 
 /* footer style */
 
