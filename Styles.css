@@ -197,12 +197,21 @@ hr{
 
 /* --------------------------------- financial dictionary page */
 
-.leftBox{
+#leftBox{
     margin: 2px;
     padding: 2px;
     border-color: white;
     border-style: solid;
     float: left;
+
+}
+
+#rightBox{
+    margin: 2px;
+    padding: 2px;
+    border-color: white;
+    border-style: solid;
+    float: right;
 
 }
 
