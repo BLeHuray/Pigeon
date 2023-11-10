@@ -4,6 +4,10 @@
 
         <title>Form</title>
         <link rel="stylesheet" type="text/css" href="Styles.css">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Hind' rel='stylesheet'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src = "main.js"></script>
 
     </head>
 
@@ -11,18 +15,19 @@
         <main>
             <header>
                 <nav>
-                    <h3> We are navving </h3>
-                        <ul>
-                            <li><a href ="index.html">Home</a></li>
-                            <li><a href ="Comparison.html">Comparison</a></li>
-                            <li><a href ="Dictionary.html">Dictionary</a></li>
-                            <li><a href ="Form.html">Forms</a></li>
-                        </ul>
+                    <!-- <h3> We are navving </h3> -->
+                    <ul class="center">
+                        <li><a href ="index.html">Home</a></li>
+                        <li><a href ="Comparison.html">Comparison</a></li>
+                        <li><a href ="Dictionary.html">Dictionary</a></li>
+                        <li><a class="active"href ="Form.html">Forms</a></li>
+                        <li><a href ="AboutUs.html">About Us</a></li>
+                    </ul>
                 </nav>
             </header>
 
             <h1>Let's get started!</h1>
-            <p>Intro text/explanation thingamajig</p>
+            <p class="p-style1">Intro text/explanation thingamajig</p>
 
             <form>
                <label for= "name">Name:</label><br>
@@ -37,7 +42,7 @@
                     <option value="60-69">60-69</option>
                     <option value="70+">70+</option>
                 </select><br>
-                <label for="children">How many children do you own?</label><br>
+                <label for="children">How many children do you have?</label><br>
                 <select id="children" name="children" size="3">
                     <option value="0">0</option>
                     <option value="1">1</option>
@@ -46,7 +51,8 @@
                     <option value="4+">4+</option>
                 </select><br>
                 <br>
-                <input type = "submit" value="Submit">
+                <button type = "button" onclick = "submitButton()">Submit</button>
+                
 
 
             </form>

@@ -1,25 +1,219 @@
 
 body {
+    font-family: 'Montserrat';
     background: rgb(0,140,204);
     background: linear-gradient(176deg, rgba(0,140,204,1) 0%, rgba(0,42,91,1) 100%);
 }
 
-nav {
-    background-color: white;
-    color: black;
+/* .bg-photo{
+    display: grid;
+    place-content: center;
+    position: relative;
+    isolation: isolate;
+} */
+
+.bg-photo::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background-image: url("computer.jpg");
+    background-size: 2250px;
+    opacity: .1;
 }
 
-/* comparison page */
+/*------------------- nav bar */
+nav {
+    /* background-color: white; */
+    color: black;
+    height: 50px;
+    padding-bottom: 30px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+    display: inline;
+    padding: 30px;
+}
+
+li a {
+    font-weight: bolder;
+    display: block;
+    color: white;
+    text-align: center;
+    /* padding: 14px 16px; */
+    text-decoration: none;
+}
+
+.active{
+    display: inline;
+    border-bottom: 2px solid #ffffff;
+}
+
+
+/*------------------------------------general styles*/
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.p-style1{
+    color: white;
+    text-align: center;
+    font-family: 'Hind';
+}
+
+.sub-heading-style2{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+.button-style1{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #ffffff;
+    height: 70px;
+    width: 300px;
+    border-radius: 50px;
+    background: linear-gradient(107deg, rgba(255, 255, 255, 0.336) 0%, rgba(255, 255, 255, 0.096) 100%);
+    border-style:solid;
+    border-color: #ffffff;
+    border-width: 2px;
+    margin-bottom: 20px;
+}
+
+.button-style1:hover{
+    color: #002A5B;
+    border-radius: 50px;
+    background-color: white;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+
+.button-style3{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #002A5B;
+    height: 45px;
+    width: 100px;
+    border-radius: 50px;
+    /* box-shadow: 0px 12px 20px -10px rgba(0,0,0,0.1); */
+    background-color: white;
+    border-style: hidden;
+    margin-bottom: 20px;
+}
+
+.button-style3:hover{
+    color: #ffffff;
+    border-radius: 50px;
+    background-color: #002A5B;
+    border-style: hidden;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+/* centering divs */
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* form styling */
+input[type = text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type = submit]{
+font-family: 'Montserrat';
+    font-weight: bold;
+    color: #002A5B;
+    height: 45px;
+    width: 100%;
+    border-radius: 50px;
+    background-color: white;
+    border-style: hidden;
+    margin-bottom: 20px;
+}
+
+input[type=submit]:hover {
+    color: #ffffff;
+    border-radius: 50px;
+    background-color: #002A5B;
+    border-style: hidden;
+    margin-bottom: 20px;
+  }
+
+
+
+
+/* ---------------------------------comparison page */
 
 
 #cbox1{
-    border-radius: 20px;
+    border-radius: 40px;
     /* background: rgb(255,255,255);
     background: linear-gradient(107deg, rgba(255, 255, 255, 0.74) 0%, rgba(255,255,255,0.14049369747899154) 100%); */
+    max-width: 700px;
+    margin: auto;
 }
+
 
 .box-style1{
     border: 3px solid rgb(255, 255, 255);
-    background: rgb(255,255,255);
-    background: linear-gradient(107deg, rgba(255, 255, 255, 0.74) 0%, rgba(255,255,255,0.14049369747899154) 100%);
+    /* background: rgb(255,255,255); */
+    background: linear-gradient(107deg, rgba(255, 255, 255, 0.404) 0%, rgba(255, 255, 255, 0.096) 100%);
+}
+
+hr{
+    border: 1px solid white;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+
+
+/* --------------------responsive design */
+
+@media screen and (max-width: 600px)
+{
+    #cbox1{
+        border-radius: 20px;
+        width: 300px;
+    }
+
+    hr{
+        width: 250px;
+    }
+    
+    .bg-photo::after{
+        background-size: 1270px;
+    }
+
+
 }
