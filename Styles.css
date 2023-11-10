@@ -5,12 +5,19 @@ body {
     background: linear-gradient(176deg, rgba(0,140,204,1) 0%, rgba(0,42,91,1) 100%);
 }
 
-.bg-photo{
+/* .bg-photo{
     background-image: url("computer.jpg");
     background-size: 2250px;
     /* background-attachment: scroll; */
+} */
 
-}
+/* .bg-photo::before{
+    content: "";
+    background-image: url("computer.jpg");
+    opacity: 0.75;
+    background-size: 2250px;
+    /* background-attachment: scroll; */
+} */
 
 /*------------------- nav bar */
 nav {
