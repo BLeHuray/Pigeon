@@ -204,6 +204,7 @@ hr{
     text-align: center;
     border-color: white;
     border-style: solid;
+    border-radius: 10px;
     float: left;
 
 }
@@ -214,6 +215,7 @@ hr{
     width: 15%;
     text-align: center;
     border-color: white;
+    border-radius: 10px;
     border-style: solid;
 
 }
@@ -225,6 +227,7 @@ hr{
     text-align: center;
     border-color: white;
     border-style: solid;
+    border-radius: 10px;
     float: right;
 
 }
