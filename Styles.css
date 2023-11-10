@@ -222,6 +222,9 @@ hr{
     border-radius: 10px;
     float: left;
 
+    border: 3px solid rgb(255, 255, 255);
+    background: linear-gradient(107deg, rgba(255, 255, 255, 0.404) 0%, rgba(255, 255, 255, 0.096) 100%);
+
 }
 
 .otherBox{
@@ -232,6 +235,9 @@ hr{
     border-color: white;
     border-radius: 10px;
     border-style: solid;
+
+    border: 3px solid rgb(255, 255, 255);
+    background: linear-gradient(107deg, rgba(255, 255, 255, 0.404) 0%, rgba(255, 255, 255, 0.096) 100%);
 
 }
 
@@ -244,6 +250,9 @@ hr{
     border-style: solid;
     border-radius: 10px;
     float: right;
+
+    border: 3px solid rgb(255, 255, 255);
+    background: linear-gradient(107deg, rgba(255, 255, 255, 0.404) 0%, rgba(255, 255, 255, 0.096) 100%);
 
 }
 
