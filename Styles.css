@@ -172,18 +172,15 @@ input[type=submit]:hover {
 
 }
 
-/**
+
 
 #centreForms{
     text-align: center;
-    justify-content: center;
+    /*justify-content: center;
     align-items: center;
-    left: 50%;
+    left: 50%;*/
 
 }
-
-**/
-
 
 /* footer style */
 
