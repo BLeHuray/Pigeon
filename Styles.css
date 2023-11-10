@@ -119,9 +119,36 @@ h1{
     align-items: center;
 }
 
+/* form styling */
+input[type = text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
 
+input[type = submit]{
+font-family: 'Montserrat';
+    font-weight: bold;
+    color: #002A5B;
+    height: 45px;
+    width: 100%;
+    border-radius: 50px;
+    background-color: white;
+    border-style: hidden;
+    margin-bottom: 20px;
+}
 
-
+input[type=submit]:hover {
+    color: #ffffff;
+    border-radius: 50px;
+    background-color: #002A5B;
+    border-style: hidden;
+    margin-bottom: 20px;
+  }
 
 
 
