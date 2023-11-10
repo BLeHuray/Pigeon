@@ -201,6 +201,7 @@ hr{
     margin: 2px;
     padding: 2px;
     width: 15%;
+    text-align: center;
     border-color: white;
     border-style: solid;
     float: left;
@@ -211,6 +212,7 @@ hr{
     margin: 2px;
     padding: 2px;
     width: 15%;
+    text-align: center;
     border-color: white;
     border-style: solid;
 
@@ -220,6 +222,7 @@ hr{
     margin: 2px;
     padding: 2px;
     width: 15%;
+    text-align: center;
     border-color: white;
     border-style: solid;
     float: right;
