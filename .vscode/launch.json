@@ -7,8 +7,8 @@
         {
             "type": "msedge",
             "request": "launch",
-            "name": "Open AboutUs.html",
-            "file": "h:\\Pigeon-1\\AboutUs.html"
+            "name": "Open index.html",
+            "file": "h:\\Pigeon-1\\index.html"
         }
     ]
 }
