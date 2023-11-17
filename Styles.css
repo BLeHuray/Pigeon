@@ -19,7 +19,7 @@ body {
     position: absolute;
     z-index: -1;
     inset: 0;
-    background-image: url("computer.jpg");
+    background-image: url("pigeon.jpg");
     background-size: 2250px;
     opacity: .1;
 }
@@ -65,7 +65,7 @@ li a {
 h1{
     color: white;
     text-align: center;
-    font-family: 'Impact';
+    font-family: 'Montserrat';
 }
 
 .p-style1{
@@ -184,13 +184,15 @@ input[type=submit]:hover {
 /* footer style */
 
 footer{
-    background-color: white;
-    width: 100%;
-    padding: 0px;
+    color: #ffffff;
     text-align: center;
-    position: fixed;
+    border-top: 2px solid rgb(255, 255, 255);
+    background: linear-gradient(107deg, rgba(255, 255, 255, 0.404) 0%, rgba(255, 255, 255, 0.096) 100%);
+    padding: 0px;
+    width: 100%;
     bottom:0;
-    
+    position: fixed;
+  
 }
 
 /* ---------------------------------comparison page */
@@ -226,8 +228,9 @@ hr{
     margin: 2px;
     padding: 2px;
     width: 15%;
+    height: 300px;
     text-align: center;
-    font-family: 'Impact';
+    font-family: 'Montserrat';
     border-color: white;
     border-style: solid;
     border-radius: 10px;
@@ -243,8 +246,9 @@ hr{
     margin: 2px;
     padding: 2px;
     width: 15%;
+    height: 300px;
     text-align: center;
-    font-family: 'Impact';
+    font-family: 'Montserrat';
     border-color: white;
     border-radius: 10px;
     border-style: solid;
@@ -259,8 +263,9 @@ hr{
     margin: 2px;
     padding: 2px;
     width: 15%;
+    height: 300px;
     text-align: center;
-    font-family: 'Impact';
+    font-family: 'Montserrat';
     border-color: white;
     border-style: solid;
     border-radius: 10px;
