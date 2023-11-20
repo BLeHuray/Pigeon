@@ -7,7 +7,31 @@
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Hind' rel='stylesheet'>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src = "main.js"></script>
+        <script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+        <script>
+        $(document).ready(function(){    
+            let i = 1
+
+            $(".Q2").hide()
+            $(".Q3").hide()
+            $(".Q3.1").hide()
+            $(".Q4").hide()
+            $(".Q5").hide()
+            $(".Q6").hide()
+            $(".Q7").hide()
+            $(".Q7.1").hide()
+            $(".Q7.2").hide()
+            $(".Q8").hide()
+            $(".Q9").hide()
+
+            $(".nextBtn").click(function(){
+                $(".Q"+i).fadeOut()
+                $(".Q"+(i+1)).delay(350).fadeIn()
+                i++
+            })
+        })
+        </script>
 
     </head>
 
@@ -32,14 +56,12 @@
                 <p class="sub-heading-style2">Tell us a little about yourself</p>
                 
                     <div class="center">
-                    
-                        <!-- Name Form -->
-                        <form id = "centreForms">
-                            <label for= "name">Name:</label><br>
-                            <input type = "text" id = "name" name="name"><br> 
+    
+                        <!-- Age Form -->
+                        <form class = "Q1" id = "centreForms">
 
-                            <!-- Age Form -->
-                            <label for="age">Age:</label><br>
+                            <label for="age" id = "QHeading">How old are you?</label><br>
+
                             <select id="age" name="age" size="3">
                                 <option value="18-19">18-19</option>
                                 <option value="20-29">20-29</option>
@@ -50,18 +72,30 @@
                                 <option value="70+">70+</option>
                             </select><br>
 
-                            <!-- Children Form -->
-                            <label for="children">How many children do you have?</label><br>
-                            <select id="children" name="children" size="3">
-                                <option value="0">0</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4+">4+</option>
-                            </select><br>
-                            <br>
-                            <button type = "button" onclick = "submitButton()">Submit</button>
                         </form>
+
+                        <!-- Are You Form -->
+                        <form class = "Q2" id = "centreForms">
+
+                            <label for="areYou" id = "QHeading">Are you a:</label><br>
+                            <br>
+
+                            <input type = "radio" id = "student" value = "Student">
+                            <label for = "student">Student</label><br>
+                            <br>
+                            <input type = "radio" id = "professional" value = "Professional">
+                            <label for = "professional">Professional</label><br>
+
+                        </form>
+
+                        
+
+                    </div>
+
+                    <div class = "center">
+
+                        <button type = "button" class = "nextBtn">Next</button>
+
                     </div>
 
             </div>

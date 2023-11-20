@@ -173,23 +173,25 @@ input[type = text], select {
     
 }
 
-input[type = submit]{
-font-family: 'Montserrat';
+.nextBtn{
+    font-family: 'Montserrat';
     font-weight: bold;
     color: #002A5B;
     height: 45px;
-    width: 100%;
+    width: 150px;
     border-radius: 50px;
+    /* box-shadow: 0px 12px 20px -10px rgba(0,0,0,0.1); */
     background-color: white;
     border-style: hidden;
     margin-bottom: 20px;
 
 }
 
-input[type=submit]:hover {
+.nextBtn:hover {
     color: #ffffff;
     border-radius: 50px;
     background-color: #002A5B;
+    cursor: pointer;
     border-style: hidden;
     margin-bottom: 20px;
 
@@ -197,7 +199,13 @@ input[type=submit]:hover {
 
 #centreForms{
     text-align: center;
+    color: #ffffff;
     
+}
+
+#QHeading{
+    color: #ffffff;
+    font-family: 'Montserrat';
 }
 
 /* footer style */
