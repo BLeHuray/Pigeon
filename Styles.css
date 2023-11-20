@@ -359,10 +359,7 @@ footer{
 
 @media screen and (max-width: 600px)
 {
-    #cbox1{
-        border-radius: 20px;
-        width: 300px;
-    }
+
 
     hr{
         width: 250px;
@@ -371,6 +368,16 @@ footer{
     .bg-photo::after{
         background-size: 1270px;
     }
+}
 
+@media screen and (max-width: 800px)
+{
+    #cbox2{
+        visibility: hidden;
+    }
+
+    #cbox4{
+        visibility: hidden;
+    }
 
 }
