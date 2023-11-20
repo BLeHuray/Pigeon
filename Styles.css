@@ -367,8 +367,6 @@ footer{
 
 @media screen and (max-width: 600px)
 {
-
-
     hr{
         width: 250px;
     }
@@ -381,11 +379,13 @@ footer{
 @media screen and (max-width: 800px)
 {
     #cbox2{
-        visibility: hidden;
+        display: none;
     }
 
     #cbox4{
-        visibility: hidden;
+        display: none;
     }
+
+
 
 }
