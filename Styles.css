@@ -207,9 +207,8 @@ input[type = text], select {
 }
 
 #form-space1{
-    padding-top: 100px;
+    padding-top: 30px;
 }
-
 
 .Q1 option{
     font-family: 'Montserrat';
@@ -230,7 +229,6 @@ input[type = text], select {
     padding-top: 20px;
     padding-right: 20px;
 }
-
 
 #progress-bar{
     height: 20px;
@@ -311,13 +309,12 @@ footer{
     padding: 20px;
     margin: 40px;
     position: relative;
+
 }
 
 #cbox5, #small-screen-p, #cbox6, .cbox7{
     display: none;
 }
-
-
 
 /* --------------------------------- financial dictionary page */
 
