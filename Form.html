@@ -21,14 +21,14 @@
             $(".Q7").hide()
             $(".Q8").hide()
             $(".Q9").hide()
-            $(".Q10").hide()
+
 
             $(".nextBtn").click(function(){
                 $(".Q"+i).fadeOut()
                 $(".Q"+(i+1)).delay(350).fadeIn()
                 i++
 
-                if ( i == 11){
+                if ( i == 10){
                     window.location.href = "Comparison.html"
                 }
             })
@@ -159,23 +159,10 @@
                             <label for = "higher">>£1000</label><br>
 
                         </form>
-
-                        <!--Account Form-->
-                        <form class = "Q8" id = "centreForms">
-
-                            <label for="account" id = "QHeading">What type of account do you have?</label><br>
-                            <br>
-
-                            <input type = "radio" id = "studentAcc" value = "StudentAcc">
-                            <label for = "studentAcc">Student</label><br>
-                            <br>
-                            <input type = "radio" id = "normalAcc" value = "NormalAcc">
-                            <label for = "normalAcc">Professional</label><br>
-
-                        </form>
+                    
                         
                         <!--Currently Saving Form-->
-                        <form class = "Q9" id = "centreForms">
+                        <form class = "Q8" id = "centreForms">
 
                             <label for="areSaving" id = "QHeading">How much are you currently saving?</label><br>
                             <br>
@@ -190,7 +177,7 @@
                         </form>
 
                         <!--Possible Saving Form-->
-                        <form class = "Q10" id = "centreForms">
+                        <form class = "Q9" id = "centreForms">
 
                             <label for="possSaving" id = "QHeading">How much do you think you can save a month?</label><br>
                             <br>
