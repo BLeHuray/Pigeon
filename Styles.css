@@ -151,16 +151,6 @@ h1{
     transform: translate(-50%, -50%);
 }
 
-/* -----------------------------------home page */
-#circle{
-    height: 150px;
-    width: 150px;
-    background-color: #bbb;
-    border-radius: 50%;
-    margin: 50px;
-}
-
-
 /*---------------------------------------form styling */
 input[type = text], select {
     width: 100%;
@@ -208,7 +198,61 @@ input[type = text], select {
     font-family: 'Montserrat';
 }
 
-/* footer style */
+#fbox1{
+    max-width: 400px;
+    height: 400px;
+    margin: auto;
+    background: #3004aa;
+    border-radius: 20px;
+}
+
+#form-space1{
+    padding-top: 100px;
+}
+
+
+.Q1 option{
+    font-family: 'Montserrat';
+}
+
+#img1{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    z-index:-1;
+}
+
+#progress-container{
+    margin: auto;
+}
+
+#progress-container p{
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+
+#progress-bar{
+    height: 20px;
+    width: 300px;
+    border-style: solid;
+    border-color: #1A869D;
+    border-radius: 50px;
+    background-color: white;
+    /* margin: auto; */
+    margin-top: 20px;
+}
+
+#progress-bar-child{
+    height: 20px;
+    width: 30%;
+    background-color: #1A869D;
+    border-color: #1A869D;
+    border-style: solid 1px;
+    border-radius: 50px;
+}
+
+/*---------------------------------------- footer style */
 
 footer{
     color: #ffffff;
@@ -243,13 +287,6 @@ footer{
     margin-right:70px;
     margin-top: auto;
     margin-bottom: auto;
-}
-
-
-.box-style1{
-    /* border: 3px solid rgb(255, 255, 255); */
-    background: #1A869D;
-    /* background: linear-gradient(107deg, rgba(255, 255, 255, 0.404) 0%, rgba(255, 255, 255, 0.096) 100%); */
 }
 
 .grid-container1{
