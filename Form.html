@@ -15,21 +15,24 @@
 
             $(".Q2").hide()
             $(".Q3").hide()
-            $(".Q3.1").hide()
             $(".Q4").hide()
             $(".Q5").hide()
             $(".Q6").hide()
             $(".Q7").hide()
-            $(".Q7.1").hide()
-            $(".Q7.2").hide()
             $(".Q8").hide()
             $(".Q9").hide()
+            $(".Q10").hide()
 
             $(".nextBtn").click(function(){
                 $(".Q"+i).fadeOut()
                 $(".Q"+(i+1)).delay(350).fadeIn()
                 i++
+
+                if ( i == 11){
+                    window.location.href = "Comparison.html"
+                }
             })
+
         })
         </script>
 
@@ -87,6 +90,119 @@
                             <label for = "professional">Professional</label><br>
 
                         </form>
+
+                        <!--Income Choices Form-->
+                        <form class = "Q3" id = "centreForms">
+
+                            <label for="income" id = "QHeading">What is you primary source of income?</label><br>
+                            <br>
+
+                            <input type = "radio" id = "pt" value = "Part Time">
+                            <label for = "pt">Part Time Job</label><br>
+                            <br>
+                            <input type = "radio" id = "ft" value = "Full Time">
+                            <label for = "pt">Full Time Job</label><br>
+                            <br>
+                            <input type = "radio" id = "fs" value = "Family Support">
+                            <label for = "pt">Family Support</label><br>
+                            <br>
+                            <input type = "radio" id = "sl" value = "Student Loan">
+                            <label for = "pt">Student Loan</label><br>
+                            <br>
+
+                        </form>
+
+                        <!--Expenses Form-->
+                        <form class = "Q4" id = "centreForms">
+                            
+                            <label for = "expenses" id = "QHeading">Please list your monthly expenses</label>
+
+                            <input type = "text" id = "expenses" name = "expenses"><br>
+
+                        </form>
+
+                        <!--Future Saving Form-->
+                        <form class = "Q5" id = "centreForms">
+                            
+                            <label for = "futureSaving" id = "QHeading">How much do you wish to save a month?</label>
+
+                            <input type = "text" id = "futureSaving" name = "futureSaving"><br>
+
+                        </form>          
+                        
+                        <!--Account Form-->
+                        <form class = "Q6" id = "centreForms">
+
+                            <label for="account" id = "QHeading">What type of account do you have?</label><br>
+                            <br>
+
+                            <input type = "radio" id = "studentAcc" value = "StudentAcc">
+                            <label for = "studentAcc">Student</label><br>
+                            <br>
+                            <input type = "radio" id = "normalAcc" value = "NormalAcc">
+                            <label for = "normalAcc">Professional</label><br>
+
+                        </form>
+
+                        <!--Overdraft Form-->
+                        <form class = "Q7" id = "centreForms">
+
+                            <label for="overdraft" id = "QHeading">How much of an overdraft do you have?</label><br>
+                            <br>
+
+                            <input type = "radio" id = "lower" value = "Lower">
+                            <label for = "lower">£0-1000</label><br>
+                            <br>
+                            <input type = "radio" id = "higher" value = "Higher">
+                            <label for = "higher">>£1000</label><br>
+
+                        </form>
+
+                        <!--Account Form-->
+                        <form class = "Q8" id = "centreForms">
+
+                            <label for="account" id = "QHeading">What type of account do you have?</label><br>
+                            <br>
+
+                            <input type = "radio" id = "studentAcc" value = "StudentAcc">
+                            <label for = "studentAcc">Student</label><br>
+                            <br>
+                            <input type = "radio" id = "normalAcc" value = "NormalAcc">
+                            <label for = "normalAcc">Professional</label><br>
+
+                        </form>
+                        
+                        <!--Currently Saving Form-->
+                        <form class = "Q9" id = "centreForms">
+
+                            <label for="areSaving" id = "QHeading">How much are you currently saving?</label><br>
+                            <br>
+
+                            <input type = "radio" id = "nothing" value = "Nothing">
+                            <label for = "nothing">Nothing</label><br>
+                            <input type = "radio" id = "lessThan1000" value = "lessThan1000">
+                            <label for = "lessThan1000">Less than £1000</label><br>
+                            <input type = "radio" id = "moreThan1000" value = "moreThan1000">
+                            <label for = "moreThan1000">More than £1000</label><br>
+
+                        </form>
+
+                        <!--Possible Saving Form-->
+                        <form class = "Q10" id = "centreForms">
+
+                            <label for="possSaving" id = "QHeading">How much do you think you can save a month?</label><br>
+                            <br>
+
+                            <input type = "radio" id = "lessThan250" value = "lessThan250">
+                            <label for = "lessThan250">Less than 250</label><br>
+                            <br>
+                            <input type = "radio" id = "moreThan250" value = "moreThan250">
+                            <label for = "moreThan250">More than £250</label><br>
+
+                        </form>
+
+
+                        
 
                         
 
