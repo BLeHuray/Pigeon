@@ -1,7 +1,8 @@
 
 body {
     font-family: 'Montserrat';
-    background: #F4EFE6;
+    /* background: #F4EFE6; */
+    background: #B5F3F9;
     /* background: linear-gradient(176deg, rgba(0,140,204,1) 0%, rgba(0,42,91,1) 100%); */
     margin: 0px;
     padding: 0px;
@@ -202,7 +203,7 @@ input[type = text], select {
     max-width: 400px;
     height: 400px;
     margin: auto;
-    background: #3004aa;
+    background: #1A869D;
     border-radius: 20px;
 }
 
@@ -297,7 +298,7 @@ footer{
 .row-child{
     height: 500px;
     width: 400px;
-    background-color: #3004aa;
+    background: #1A869D;
     border-radius: 20px;
     padding: 20px;
     margin: 40px;
@@ -403,7 +404,7 @@ footer{
         display: block;
         height: 400px;
         width: 300px;
-        background-color: #3004aa;
+        background: #1A869D;
         border-radius: 20px;
         padding: 20px;
         margin: 40px;
