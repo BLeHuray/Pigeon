@@ -156,7 +156,7 @@ h1{
 
 /*---------------------------------------form styling */
 input[type = text], select {
-    width: 100%;
+    width: 300px;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -245,6 +245,8 @@ input[type = text], select {
     border-style: solid 1px;
     border-radius: 50px;
 }
+
+
 
 /*---------------------------------------- footer style */
 
