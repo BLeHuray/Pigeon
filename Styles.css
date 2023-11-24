@@ -41,7 +41,6 @@ li a {
     border-bottom: 2px solid #ffffff;
 }
 
-
 /*------------------------------------general styles*/
 
 h1{
@@ -97,7 +96,6 @@ h1{
     cursor: pointer;
 }
 
-
 .button-style3{
     font-family: 'Montserrat';
     font-weight: bold;
@@ -116,8 +114,8 @@ h1{
     cursor: pointer;
 }
 
+/*------------------------------------------ centering divs */
 
-/*------------------------------------------centering divs */
 .center{
     display: flex;
     justify-content: center;
@@ -132,6 +130,7 @@ h1{
 }
 
 /*---------------------------------------form styling */
+
 input[type = text], select {
     width: 300px;
     padding: 12px 20px;
@@ -221,8 +220,6 @@ input[type = text], select {
     border-radius: 50px;
 }
 
-
-
 /*---------------------------------------- footer style */
 
 footer{
@@ -236,7 +233,7 @@ footer{
     z-index: 1;
 }
 
-/* ---------------------------------comparison page */
+/* --------------------------------- container styles */
 
 #cbox1{
     border-radius: 30px;
@@ -283,64 +280,6 @@ footer{
 
 #cbox5, #small-screen-p, #cbox6, .cbox7{
     display: none;
-}
-
-/* --------------------------------- financial dictionary page */
-
-
-
-
-#leftBox{
-    margin: 2px;
-    padding: 2px;
-    width: 15%;
-    height: 300px;
-    text-align: center;
-    font-family: 'Montserrat';
-    border-color: white;
-    border-style: solid;
-    border-radius: 10px;
-    float: left;
-
-    border: 3px solid rgb(255, 255, 255);
-    background: linear-gradient(107deg, rgba(255, 255, 255, 0.404) 0%, rgba(255, 255, 255, 0.096) 100%);
-    color: white;
-
-}
-
-.otherBox{
-    margin: 2px;
-    padding: 2px;
-    width: 15%;
-    height: 300px;
-    text-align: center;
-    font-family: 'Montserrat';
-    border-color: white;
-    border-radius: 10px;
-    border-style: solid;
-
-    border: 3px solid rgb(255, 255, 255);
-    background: linear-gradient(107deg, rgba(255, 255, 255, 0.404) 0%, rgba(255, 255, 255, 0.096) 100%);
-    color: white;
-
-}
-
-#rightBox{
-    margin: 2px;
-    padding: 2px;
-    width: 15%;
-    height: 300px;
-    text-align: center;
-    font-family: 'Montserrat';
-    border-color: white;
-    border-style: solid;
-    border-radius: 10px;
-    float: right;
-
-    border: 3px solid rgb(255, 255, 255);
-    background: linear-gradient(107deg, rgba(255, 255, 255, 0.404) 0%, rgba(255, 255, 255, 0.096) 100%);
-    color: white;
-
 }
 
 /* --------------------responsive design */
