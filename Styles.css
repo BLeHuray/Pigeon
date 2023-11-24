@@ -25,6 +25,9 @@ body {
 } */
 
 /*------------------- nav bar */
+
+
+
 nav {
     background-color: #1A869D;
     color: rgb(255, 255, 255);
@@ -154,7 +157,7 @@ h1{
 
 /*---------------------------------------form styling */
 input[type = text], select {
-    width: 100%;
+    width: 300px;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -244,6 +247,8 @@ input[type = text], select {
     border-radius: 50px;
 }
 
+
+
 /*---------------------------------------- footer style */
 
 footer{
@@ -311,6 +316,9 @@ footer{
 }
 
 /* --------------------------------- financial dictionary page */
+
+
+
 
 #leftBox{
     margin: 2px;
@@ -409,6 +417,23 @@ footer{
         padding: 20px;
         margin: 40px;
     }
+
+    .pom{
+        display: none;
+    }
     
+    li{
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+
+    #big-screen-dictionary{
+        display: none;
+    }
+
+    #fbox1{
+        max-width: 350px;
+    }
     
 }
