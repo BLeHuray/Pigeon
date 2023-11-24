@@ -314,6 +314,9 @@ footer{
 
 /* --------------------------------- financial dictionary page */
 
+
+
+
 #leftBox{
     margin: 2px;
     padding: 2px;
@@ -419,6 +422,15 @@ footer{
     li{
         margin-top: 20px;
         padding: 10px;
+    }
+
+
+    #big-screen-dictionary{
+        display: none;
+    }
+
+    #fbox1{
+        max-width: 350px;
     }
     
 }
